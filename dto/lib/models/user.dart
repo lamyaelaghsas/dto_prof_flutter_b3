@@ -2,9 +2,9 @@ import 'package:dto/converters/firestore_timestamp_converter.dart';
 import 'package:firestore_odm/firestore_odm.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-part 'user.freezed.dart';
+part '../../../lib/models/user.freezed.dart';
 
-part 'user.g.dart';
+part '../../../lib/models/user.g.dart';
 
 @freezed
 abstract class User with _$User {
